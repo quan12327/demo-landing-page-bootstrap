@@ -1,0 +1,43 @@
+@use '../utils' as *;
+@use '../globals' as *;
+
+.navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: rem(5) rem(10);
+}
+
+#intro {
+    background: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full%20page/img%20%283%29.jpg")no-repeat center center fixed;
+    background-size: cover;
+    
+}
+
+#features{
+    padding: rem(80);
+    .row{
+        margin: auto;
+    }
+}
+
+#examples{
+    padding: rem(80);
+}
+
+#gallery{
+    padding: rem(20);
+    
+    .row{
+        margin: auto;
+    }
+}
+
+#contact{
+    
+    .row{
+        margin: auto;
+    }
+}
